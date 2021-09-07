@@ -1,3 +1,5 @@
-## Project in Action
+# Comfy Store (E-Commerce Site)
 
-[![Screenshot](./Images/Screenshot.png)](https://comfy-store-javascript-project.netlify.app)
+Project in Action: [https://comfy-store-javascript-project.netlify.app](https://comfy-store-javascript-project.netlify.app)
+
+![Screenshot](./Images/Screenshot.png)
