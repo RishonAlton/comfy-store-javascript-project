@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./Styles.css">
+    <title>About | Comfy Store</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-center">
+            <button class="hamburger-button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li>
+                    <a href="./Index.html" class="nav-link black">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="./Products.html" class="nav-link black">
+                        Products
+                    </a>
+                </li>
+                <li>
+                    <a href="./About.html" class="nav-link black">
+                        About
+                    </a>
+                </li>
+            </ul>
+            <img src="./Images/Logo-2.svg" alt="Comfy" class="logo">
+            <div class="cart-button-container">
+                <button class="open-cart-button black">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <span class="cart-count"></span>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h3>Home / About</h3>
+    </header>
+    <main class="about-main-container">
+        <h2 class="section-title">
+            <span>/</span> 
+            Our History
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae beatae cum fugit modi aut saepe tempore eius alias ipsam mollitia consectetur eum rem, cupiditate eveniet laudantium odit nemo inventore corrupti earum maxime nostrum! In ab, molestias tenetur obcaecati corrupti suscipit commodi, et voluptas labore eos consequatur ad praesentium nulla nostrum accusamus iure nam mollitia maxime sequi magnam placeat? Eum corporis praesentium cupiditate at quo amet, in dicta? Cumque repellendus voluptatibus id, libero labore nesciunt nobis, dolor culpa, velit corporis consequuntur.</p>
+    </main>
+    <div class="sidebar-container">
+        <aside class="sidebar">
+            <button class="close-button close-sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul class="sidebar-links">
+                <li>
+                    <a href="./Index.html" class="sidebar-link">
+                        <i class="fas fa-home fa-fw"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="./Products.html" class="sidebar-link">
+                        <i class="fas fa-couch fa-fw"></i>
+                        Products
+                    </a>
+                </li>
+                <li>
+                    <a href="./About.html" class="sidebar-link">
+                        <i class="fas fa-book fa-fw"></i>
+                        About
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <div class="cart-items-container">
+        <aside class="cart">
+            <button class="close-button close-cart">
+                <i class="fas fa-times"></i>
+            </button>
+            <h4 class="cart-title">Your Bag</h4>
+            <article class="cart-items"></article>
+            <footer class="cart-footer">
+                <h3 class="cart-total"></h3>
+                <button class="button checkout-button">Checkout</button>
+            </footer>
+        </aside>
+    </div>
+    <script type="module" src="./Pages/About.js"></script>
+</body>
+</html>

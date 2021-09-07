@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./Styles.css">
+    <title>Products | Comfy Store</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-center">
+            <button class="hamburger-button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li>
+                    <a href="./Index.html" class="nav-link black">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="./Products.html" class="nav-link black">
+                        Products
+                    </a>
+                </li>
+                <li>
+                    <a href="./About.html" class="nav-link black">
+                        About
+                    </a>
+                </li>
+            </ul>
+            <img src="./Images/Logo-2.svg" alt="Comfy" class="logo">
+            <div class="cart-button-container">
+                <button class="open-cart-button black">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <span class="cart-count"></span>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h3>Home / Products</h3>
+    </header>
+    <div class="sidebar-container">
+        <aside class="sidebar">
+            <button class="close-button close-sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul class="sidebar-links">
+                <li>
+                    <a href="./Index.html" class="sidebar-link">
+                        <i class="fas fa-home fa-fw"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="./Products.html" class="sidebar-link">
+                        <i class="fas fa-couch fa-fw"></i>
+                        Products
+                    </a>
+                </li>
+                <li>
+                    <a href="./About.html" class="sidebar-link">
+                        <i class="fas fa-book fa-fw"></i>
+                        About
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <div class="cart-items-container">
+        <aside class="cart">
+            <button class="close-button close-cart">
+                <i class="fas fa-times"></i>
+            </button>
+            <h4 class="cart-title">Your Bag</h4>
+            <article class="cart-items"></article>
+            <footer class="cart-footer">
+                <h3 class="cart-total"></h3>
+                <button class="button checkout-button">Checkout</button>
+            </footer>
+        </aside>
+    </div>
+    <main class="products-main-container">
+        <button class="filter-button">
+            Filter
+            <i class="fas fa-chevron-right fa-fw"></i>
+        </button>
+        <section class="filter-container">
+            <article class="filters">
+                <form class="search-form">
+                    <input type="text" class="search-input" placeholder="Search...">
+                </form>
+                <div class="company-filter">
+                    <h5>Company</h5>
+                    <div class="company-buttons"></div>
+                </div>
+                <form class="price-form">
+                    <h5>Price</h5>
+                    <input type="range" class="price-filter">
+                    <p class="price-filter-value"></p>
+                </form>
+            </article>
+        </section>
+        <section class="products all-products"></section>
+    </main>
+    <h3 class="filter-error"></h3>
+    <div class="page-loading">
+        <h2>Loading...</h2>
+    </div>
+    <script type="module" src="./Pages/Products.js"></script>
+</body>
+</html>
